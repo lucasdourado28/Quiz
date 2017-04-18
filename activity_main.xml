@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="left"
+    tools:context="com.example.quiz.quiz.MainActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/quiz" />
+
+
+            <TextView
+                android:text="@string/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView3" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="Variável reservada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/R1a" />
+                <RadioButton
+                    android:text="Variável constante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/R1b" />
+                <RadioButton
+                    android:text="Método usado no final da execução"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/R1c" />
+            </RadioGroup>
+            <TextView
+                android:text="@string/p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView8" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Mesmo valor para todos métodos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2a" />
+            <RadioButton
+                android:text="Valores diferentes para cada método"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2b" />
+            <RadioButton
+                android:text="Valor diferente para classe pai e classe filho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R2c" />
+            </RadioGroup>
+            <TextView
+                android:text="@string/p3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView4" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Utilizando variável static"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R3a" />
+            <RadioButton
+                android:text="Utilizando o IMPLEMENTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R3b" />
+            <RadioButton
+                android:text="Utilizando o EXTENDS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R3c" />
+            </RadioGroup>
+            <TextView
+                android:text="@string/p4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView5" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Permite usar uma variável de outra classe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R4a" />
+            <RadioButton
+                android:text="Permite que voce execute ações"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R4b" />
+            <RadioButton
+                android:text="Chama um método da classe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R4c" />
+            </RadioGroup>
+            <TextView
+                android:text="@string/p5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView6" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Variáveis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R5a" />
+            <RadioButton
+                android:text="Classes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R5b" />
+            <RadioButton
+                android:text="Funções"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R5c" />
+            </RadioGroup>
+            <TextView
+                android:text="@string/p6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView7" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:text="Estrutural"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R6a" />
+            <RadioButton
+                android:text="Lógica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R6b" />
+            <RadioButton
+                android:text="Estilo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/R6c" />
+            </RadioGroup>
+            <Button
+                android:text="@string/btnFim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:onClick="VerificarRadio" />
+
+            <TextView
+                android:hint="@string/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:id="@+id/resul" />
+
+            <TextView
+                android:hint="@string/resultMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:id="@+id/resulMedia" />
+
+
+            <Button
+                android:text="@string/voltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:onClick="voltar"
+                android:id="@+id/button3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="comecar">Iniciar QUIZ</string>
+    <string name="quiz">Quiz Java</string>
+    <string name="p1">O que significa a clausula final?</string>
+    <string name="p2">O que significa a clausula static?</string>
+    <string name="p3">Como se herda em java?</string>
+    <string name="p4">O que é uma INTENT?</string>
+    <string name="p5">O que é um método?</string>
+    <string name="p6">O java é a parte _________ de um projeto?</string>
+    <string name="btnFim">Finalizar</string>
+    <string name="result">Resultado final</string>
+    <string name="resultMedia">Média final</string>
+    <string name="voltar">Voltar para tela inicial</string>
+</resources>
